@@ -59,6 +59,17 @@
     top: auto;
 }
 
+.letras4
+{
+    position: absolute;
+    bottom: 0.5px;  /* Ajusta a posição do texto para o fundo */
+    width: 100%;
+    color: white; /* Altere conforme a necessidade */
+    font-size: 40px;
+    position: relative;
+    top: auto;
+}
+
 .Scrollar
 {
     display: flex; /* Flexbox para alinhamento */
@@ -131,4 +142,28 @@
     margin: 5% auto !important;
     position: relative;
     top: 20px;
+}
+
+.Painel
+{
+    background-color: #596575;
+    font-size: 10px;
+    text-align: center;
+    width: 490px; 
+    height: 350px; 
+    margin: 10% auto;
+    border-radius: 15%;
+    position: relative;
+    padding-top: 1px;
+}
+
+.Paineizinhos
+{
+    background-color: #25282c;
+    font-size: 10px;
+    text-align: center;
+    width: 420px; 
+    height: 70px; 
+    margin: 6% auto;
+    border-radius: 15%;
 }
