@@ -80,15 +80,15 @@
 
             <div class="Painel">
                 <div class="Paineizinhos">
-                    <p class="letras4"> 1.Desigualdade Social</p>
+                    <a href="indexDesigualdade.php" class="letras4">1. Desigualdade Social</a>
                 </div>
                 
                 <div class="Paineizinhos">
-                    <p class="letras4"> 2.Ancestralidade</p>
+                    <a href="indexAncestralidade.php" class="letras4">2. Ancestralidade</a>
                 </div>
 
                 <div class="Paineizinhos">
-                    <p class="letras4"> 3.Afrofuturismo</p>
+                    <a href="indexAfrofuturismo.php" class="letras4">3. Afrofuturismo</a>
                 </div>
             </div>
     </body>
