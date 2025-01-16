@@ -16,7 +16,7 @@
 
         <div class="Caixa3">
             <div class="Moldura">
-                
+                <img src="../Imagens/Afrofuturismo_Wendel 2.png">
             </div>
         </div>
         <div class="Caixinha">
@@ -40,7 +40,7 @@
 
         <div class="Caixa3">
             <div class="Moldura">
-                
+                <img src="../Imagens/Televisão 2.png">
             </div>
         </div>
         <div class="Caixinha">
@@ -52,7 +52,7 @@
 
         <div class="Caixa3">
             <div class="Moldura">
-                
+                <img src="../Imagens/EdicaoImagemJoao 2.jpg">
             </div>
         </div>
         <div class="Caixinha">
@@ -64,7 +64,7 @@
 
         <div class="Caixa3">
             <div class="Moldura">
-                
+                <img src="../Imagens/Afrofuturismo para as redes sociais3.jpg">
             </div>
         </div>
         <div class="Caixinha">
@@ -76,7 +76,7 @@
 
         <div class="Caixa3">
             <div class="Moldura">
-                
+                <img src="../Imagens/PosterAfrofuturismo Daniel 2.png">
             </div>
         </div>
         <div class="Caixinha">
@@ -88,7 +88,19 @@
 
         <div class="Caixa3">
             <div class="Moldura">
-                
+                <img src="../Imagens/Pérola Mãe (1).jpg">
+            </div>
+        </div>
+        <div class="Caixinha">
+            <div>
+                <button class="Button"><img src= "../Imagens/Seta_Pra_Baixo5.png"></button>
+            </div>
+        </div>
+
+
+        <div class="Caixa3">
+            <div class="Moldura">
+                <img src="../Imagens/Virtualmente constante Gayyyyyy.png">
             </div>
         </div>
         <div class="Caixinha">
