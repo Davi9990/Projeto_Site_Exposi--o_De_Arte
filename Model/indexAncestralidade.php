@@ -5,7 +5,7 @@
         <title>De Passagem, Ancestralidade</title>
         <link rel="stylesheet" href="../Visual/Visual.css">
     </head>
-    <body>
+    <body class="ancestralidade_degrade">
         <div class ="circle"><img src= "../Imagens/Logo_Para_Redes_Sociais.png"></div>
 
         <h1 class= "Tamanho">Ancestralidade</h1>

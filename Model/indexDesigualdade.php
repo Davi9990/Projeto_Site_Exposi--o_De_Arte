@@ -5,7 +5,7 @@
         <title>De Passagem, Desigualdade</title>
         <link rel="stylesheet" href="../Visual/Visual.css">
     </head>
-    <body>
+    <body class="desigualdade_degrade">
         <div class ="circle"><img src= "../Imagens/Logo_Para_Redes_Sociais.png"></div>
 
         <h1 class= "Tamanho">Desigualdade Social</h1>
@@ -22,7 +22,7 @@
         </div>
         <div class="Caixinha">
             <div>
-                <button class="Button"><img src= "../Imagens/Seta_Pra_Baixo5.png"></button>
+                <button class="Button" onclick= "abrirPopup()"><img src= "../Imagens/Seta_Pra_Baixo5.png"></button>
             </div>
         </div>
 
@@ -58,7 +58,7 @@
         </div>
         <div class="Caixinha">
             <div>
-                <button class="Button"><img src= "../Imagens/Seta_Pra_Baixo5.png"></button>
+                <button class="Button" ><img src= "../Imagens/Seta_Pra_Baixo5.png"></button>
             </div>
         </div>
 
@@ -70,7 +70,7 @@
         </div>
         <div class="Caixinha">
             <div>
-                <button class="Button"><img src= "../Imagens/Seta_Pra_Baixo5.png"></button>
+                <button class="Button" ><img src= "../Imagens/Seta_Pra_Baixo5.png"></button>
             </div>
         </div>
 
@@ -110,6 +110,23 @@
             </div>
         </div>
 
-        
+    <div id="popup" class="popup" style="display: none">
+        <div class="popup-content">
+            <span class="close-btn" onclick="fecharPopup()">&times;</span>
+            <p>Este é um Pop-up!</p>
+        </div>
+    </div>
+
+    <script>
+        function abrirPopup()
+        {
+            document.getElementById("popup").style.display = "block";
+        }
+
+        function fecharPopup()
+        {
+            document.getElementById("popup").style.display = "none";
+        }
+    </script>
     </body>
 </html>

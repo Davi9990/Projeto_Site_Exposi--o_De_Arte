@@ -5,7 +5,7 @@
         <title>De Passagem</title>
         <link rel="stylesheet" href="../Visual/Visual.css">
     </head>
-    <body>
+    <body class="inicio">
             <div class ="circle"><img src= "../Imagens/Logo_Para_Redes_Sociais.png"></div>
     
             <h2 class="Tamanho2">Bem Vindo ao Site </h2>

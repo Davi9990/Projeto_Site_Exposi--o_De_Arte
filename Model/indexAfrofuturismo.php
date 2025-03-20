@@ -5,7 +5,7 @@
         <title>De Passagem, Afrofuturismo</title>
         <link rel="stylesheet" href="../Visual/Visual.css">
     </head>
-    <body>
+    <body class="afrofuturismo_degrade">
         <div class ="circle"><img src= "../Imagens/Logo_Para_Redes_Sociais.png"></div>
 
         <h1 class= "Tamanho">Afrofuturismo</h1>

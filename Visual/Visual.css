@@ -4,6 +4,7 @@
     font-size: 60px;
     text-align: center;
     margin: 5%;
+    color: #ffffff;
 }
 
 .Tamanho2
@@ -11,6 +12,7 @@
     font-size: 30px;
     text-align: center;
     margin: 5%;
+    color: #ffffff;
 }
 
 .circle
@@ -37,6 +39,7 @@
     text-align: center;
     margin: 10%;
     font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
 }
 
 .letras2
@@ -262,4 +265,61 @@
     height: 70px; 
     margin: 6% auto;
     border-radius: 15%;
+}
+
+.inicio
+{
+    background-image: linear-gradient(to bottom, #241E40, 
+    #01251F, #0D0D0D );
+}
+
+.desigualdade_degrade
+{
+    background-image: linear-gradient(to bottom, #241E40, 
+    #4FBF97, #8C4F88);
+}
+
+.ancestralidade_degrade
+{
+    background-image: linear-gradient(to bottom, #68A58B, 
+    #CEBD92, #DB7D7B);
+}
+
+.afrofuturismo_degrade
+{
+    background-image: linear-gradient(to bottom,  #881A1A, 
+    #0D0D0D,  #01261F);
+}
+
+.popup
+{
+    display: flex;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    padding: 100px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+.popup-content
+{
+    position: center;
+    text-align: center;
+    width: 80px;
+    padding: 50px;
+    transform: translate(-17%, 10%);
+}
+
+.close-btn
+{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
 }
