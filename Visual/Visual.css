@@ -294,28 +294,36 @@
 .popup
 {
     display: flex;
+    flex-direction: column; /* Organiza os elementos dentro do popup em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
     position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 90px;
-    padding: 90px;
+    width: 400px; /* Aumentei a largura para melhor acomodar o texto */
+    max-width: 90%; /* Impede que o popup fique muito grande em telas menores */
+    padding: 20px; /* Reduzi o padding para evitar que a caixa fique muito grande */
     background: #234266;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     z-index: 1000;
 }
 
 .popup-content
 {
-    position: left;
-    text-align: left;
-    width: 90px;
-    padding: 70px;
-    transform: translate(-28%, 10%);
+    text-align: center;
+    line-height: 1.5;
+    width: 80%; /* Faz com que o conteúdo ocupe toda a largura da div */
+    height: auto;
+    padding: 10px;
     color: white;
     background: #1F4E4E;
+    font-size: 18px;
+    overflow-y: auto; /* Adiciona rolagem caso o conteúdo ultrapasse o tamanho da div */
+    margin-bottom: 20px;
 }
+
 
 .close-btn
 {
@@ -325,4 +333,72 @@
     font-size: 20px;
     cursor: pointer;
     
+}
+
+.popup2
+{
+    display: flex;
+    flex-direction: column; /* Organiza os elementos dentro do popup em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px; /* Aumentei a largura para melhor acomodar o texto */
+    max-width: 90%; /* Impede que o popup fique muito grande em telas menores */
+    padding: 20px; /* Reduzi o padding para evitar que a caixa fique muito grande */
+    background: #cfbd93;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+.popup-content2
+{
+    text-align: center;
+    line-height: 1.5;
+    width: 80%; /* Faz com que o conteúdo ocupe toda a largura da div */
+    height: auto;
+    padding: 10px;
+    color: white;
+    background: #4A3B12;
+    font-size: 18px;
+    overflow-y: auto; /* Adiciona rolagem caso o conteúdo ultrapasse o tamanho da div */
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.popup3
+{
+    display: flex;
+    flex-direction: column; /* Organiza os elementos dentro do popup em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px; /* Aumentei a largura para melhor acomodar o texto */
+    max-width: 90%; /* Impede que o popup fique muito grande em telas menores */
+    padding: 20px; /* Reduzi o padding para evitar que a caixa fique muito grande */
+    background: #390f0f;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+.popup-content3
+{
+    text-align: center;
+    line-height: 1.5;
+    width: 80%; /* Faz com que o conteúdo ocupe toda a largura da div */
+    height: auto;
+    padding: 10px;
+    color: white;
+    background: #A53B3B;
+    font-size: 18px;
+    overflow-y: auto; /* Adiciona rolagem caso o conteúdo ultrapasse o tamanho da div */
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
