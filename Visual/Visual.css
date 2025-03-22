@@ -298,9 +298,9 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 100px;
-    padding: 100px;
-    background: white;
+    width: 90px;
+    padding: 90px;
+    background: #234266;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     border-radius: 10px;
     z-index: 1000;
@@ -308,11 +308,13 @@
 
 .popup-content
 {
-    position: center;
-    text-align: center;
-    width: 80px;
-    padding: 50px;
-    transform: translate(-17%, 10%);
+    position: left;
+    text-align: left;
+    width: 90px;
+    padding: 70px;
+    transform: translate(-28%, 10%);
+    color: white;
+    background: #1F4E4E;
 }
 
 .close-btn
