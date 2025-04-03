@@ -47,7 +47,7 @@
                     <div class="Caixa2">
                         <div class="retrato"><img src="../Imagens/Lucas3.png"></div>
                     </div>
-                    <p class="letras2">Lusk Raulzito da Silva</p>
+                    <p class="letras2">Lucas Desiderio da Silva</p>
                 </div>
 
                 <div class ="Caixa1">
